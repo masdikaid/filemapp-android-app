@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/boarding_navigation"
+    app:startDestination="@id/boardingOneFragment">
+
+    <fragment
+        android:id="@+id/boardingOneFragment"
+        android:name="com.mdidproject.movupapp.ui.boarding.BoardingOneFragment"
+        android:label="BoardingOneFragment" >
+        <action
+            android:id="@+id/action_boardingOneFragment_to_boardingTwoFragment"
+            app:destination="@id/boardingTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/boardingTwoFragment"
+        android:name="com.mdidproject.movupapp.ui.boarding.BoardingTwoFragment"
+        android:label="BoardingTwoFragment" >
+        <action
+            android:id="@+id/action_boardingTwoFragment_to_boardingThreeFragment"
+            app:destination="@id/boardingThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/boardingThreeFragment"
+        android:name="com.mdidproject.movupapp.ui.boarding.BoardingThreeFragment"
+        android:label="BoardingThreeFragment" >
+        <action
+            android:id="@+id/action_boardingThreeFragment_to_boardingFourFragment"
+            app:destination="@id/boardingFourFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/boardingFourFragment"
+        android:name="com.mdidproject.movupapp.ui.boarding.BoardingFourFragment"
+        android:label="BoardingFourFragment" />
+</navigation>

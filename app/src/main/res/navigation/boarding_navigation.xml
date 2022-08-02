@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/boardingOneFragment"
-        android:name="com.mdidproject.movupapp.ui.boarding.BoardingOneFragment"
+        android:name="com.mdidproject.filemapp.ui.boarding.BoardingOneFragment"
         android:label="BoardingOneFragment" >
         <action
             android:id="@+id/action_boardingOneFragment_to_boardingTwoFragment"
@@ -14,7 +14,7 @@
     </fragment>
     <fragment
         android:id="@+id/boardingTwoFragment"
-        android:name="com.mdidproject.movupapp.ui.boarding.BoardingTwoFragment"
+        android:name="com.mdidproject.filemapp.ui.boarding.BoardingTwoFragment"
         android:label="BoardingTwoFragment" >
         <action
             android:id="@+id/action_boardingTwoFragment_to_boardingThreeFragment"
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/boardingThreeFragment"
-        android:name="com.mdidproject.movupapp.ui.boarding.BoardingThreeFragment"
+        android:name="com.mdidproject.filemapp.ui.boarding.BoardingThreeFragment"
         android:label="BoardingThreeFragment" >
         <action
             android:id="@+id/action_boardingThreeFragment_to_boardingFourFragment"
@@ -30,6 +30,6 @@
     </fragment>
     <fragment
         android:id="@+id/boardingFourFragment"
-        android:name="com.mdidproject.movupapp.ui.boarding.BoardingFourFragment"
+        android:name="com.mdidproject.filemapp.ui.boarding.BoardingFourFragment"
         android:label="BoardingFourFragment" />
 </navigation>

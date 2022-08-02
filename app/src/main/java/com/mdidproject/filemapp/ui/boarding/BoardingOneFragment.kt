@@ -1,13 +1,11 @@
-package com.mdidproject.movupapp.ui.boarding
+package com.mdidproject.filemapp.ui.boarding
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.navigation.findNavController
-import com.mdidproject.movupapp.R
-import com.mdidproject.movupapp.abstraction.base.BaseFragment
-import com.mdidproject.movupapp.databinding.FragmentBoardingOneBinding
+import com.mdidproject.filemapp.R
+import com.mdidproject.filemapp.abstraction.base.BaseFragment
+import com.mdidproject.filemapp.databinding.FragmentBoardingOneBinding
 
 class BoardingOneFragment : BaseFragment<FragmentBoardingOneBinding>() {
     override fun getLayoutResourceId(): Int = R.layout.fragment_boarding_one

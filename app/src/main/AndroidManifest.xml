@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mdidproject.movupapp">
+    package="com.mdidproject.filemapp">
 
     <application
-        android:name=".MyApplication"
+        android:name="com.mdidproject.filemapp.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -15,7 +15,7 @@
         android:theme="@style/Theme.MovupApp"
         tools:targetApi="31">
         <activity
-            android:name=".ui.boarding.Boarding"
+            android:name="com.mdidproject.filemapp.ui.boarding.Boarding"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

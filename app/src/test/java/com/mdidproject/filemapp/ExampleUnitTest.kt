@@ -1,4 +1,4 @@
-package com.mdidproject.movupapp
+package com.mdidproject.filemapp
 
 import org.junit.Test
 

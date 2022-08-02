@@ -1,11 +1,11 @@
-package com.mdidproject.movupapp.ui.boarding
+package com.mdidproject.filemapp.ui.boarding
 
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.findNavController
-import com.mdidproject.movupapp.R
-import com.mdidproject.movupapp.abstraction.base.BaseFragment
-import com.mdidproject.movupapp.databinding.FragmentBoardingThreeBinding
+import com.mdidproject.filemapp.R
+import com.mdidproject.filemapp.abstraction.base.BaseFragment
+import com.mdidproject.filemapp.databinding.FragmentBoardingThreeBinding
 
 class BoardingThreeFragment : BaseFragment<FragmentBoardingThreeBinding>() {
     override fun getLayoutResourceId(): Int = R.layout.fragment_boarding_three

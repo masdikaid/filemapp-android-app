@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Movup App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ob_one_image_desc">on boarding one image</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="now_playing_desc">Buy Ticket for your Favourite Movie and Choose your time</string>
+    <string name="next_btn">Next</string>
+    <string name="skip_btn">Skip</string>
+    <string name="ob_two_image_desc">on boarding two image</string>
+    <string name="ob_three_image_desc">onboarding three image</string>
+    <string name="ob_four_image_desc">onboarding four image</string>
+    <string name="presales">Presales</string>
+    <string name="presales_desc">Book Ticket for your favourite incoming Movie</string>
+    <string name="rent_desc">Streaming your Favourite Movie anytime and choose your Period</string>
+    <string name="rent">Rent</string>
+    <string name="streaming_desc">Streaming your missed Movie and choose your time</string>
+    <string name="streaming">Streaming</string>
 </resources>

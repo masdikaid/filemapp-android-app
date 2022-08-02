@@ -2,9 +2,41 @@
     <!-- Base application theme. -->
     <style name="Theme.MovupApp" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryDark">@color/purple_700</item>
-        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:background">@color/black</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <!--On Boarding Custom Style-->
+    <style name="Movup">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Movup.OnBoarding">
+    </style>
+
+    <style name="Movup.OnBoarding.Heading">
+        <item name="fontFamily">@font/fredoka</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <style name="Movup.OnBoarding.Description">
+        <item name="fontFamily">@font/comforta</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Movup.OnBoarding.ButtonPrimary">
+        <item name="height">20dp</item>
+        <item name="fontFamily">@font/comforta</item>
+        <item name="android:background">@drawable/button_primary</item>
+    </style>
+
+    <style name="Movup.OnBoarding.ButtonSecondary">
+        <item name="height">20dp</item>
+        <item name="fontFamily">@font/comforta</item>
+        <item name="android:background">@drawable/button_secondary</item>
     </style>
 </resources>

@@ -15,6 +15,11 @@ class BoardingThreeFragment : BaseFragment<FragmentBoardingThreeBinding>() {
             val action = BoardingThreeFragmentDirections.actionBoardingThreeFragmentToBoardingFourFragment()
             it.findNavController().navigate(action)
         }
+
+        binding.btnObThreeSkip.setOnClickListener {
+            val action = BoardingThreeFragmentDirections.actionBoardingThreeFragmentToSignInFragment()
+            it.findNavController().navigate(action)
+        }
         super.onViewCreated(view, savedInstanceState)
     }
 }

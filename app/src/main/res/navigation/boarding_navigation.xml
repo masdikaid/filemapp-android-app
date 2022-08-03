@@ -11,6 +11,9 @@
         <action
             android:id="@+id/action_boardingOneFragment_to_boardingTwoFragment"
             app:destination="@id/boardingTwoFragment" />
+        <action
+            android:id="@+id/action_boardingOneFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
     </fragment>
     <fragment
         android:id="@+id/boardingTwoFragment"
@@ -19,6 +22,9 @@
         <action
             android:id="@+id/action_boardingTwoFragment_to_boardingThreeFragment"
             app:destination="@id/boardingThreeFragment" />
+        <action
+            android:id="@+id/action_boardingTwoFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
     </fragment>
     <fragment
         android:id="@+id/boardingThreeFragment"
@@ -27,9 +33,20 @@
         <action
             android:id="@+id/action_boardingThreeFragment_to_boardingFourFragment"
             app:destination="@id/boardingFourFragment" />
+        <action
+            android:id="@+id/action_boardingThreeFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
     </fragment>
     <fragment
         android:id="@+id/boardingFourFragment"
         android:name="com.mdidproject.filemapp.ui.boarding.BoardingFourFragment"
-        android:label="BoardingFourFragment" />
+        android:label="BoardingFourFragment" >
+        <action
+            android:id="@+id/action_boardingFourFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.mdidproject.filemapp.ui.auth.SignInFragment"
+        android:label="SignInFragment" />
 </navigation>

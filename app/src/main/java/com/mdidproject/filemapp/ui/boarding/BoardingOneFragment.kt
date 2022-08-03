@@ -15,6 +15,11 @@ class BoardingOneFragment : BaseFragment<FragmentBoardingOneBinding>() {
             val action = BoardingOneFragmentDirections.actionBoardingOneFragmentToBoardingTwoFragment()
             it.findNavController().navigate(action)
         }
+
+        binding.btnObOneSkip.setOnClickListener {
+            val action = BoardingOneFragmentDirections.actionBoardingOneFragmentToSignInFragment()
+            it.findNavController().navigate(action)
+        }
         super.onViewCreated(view, savedInstanceState)
     }
 }

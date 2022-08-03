@@ -15,6 +15,11 @@ class BoardingTwoFragment : BaseFragment<FragmentBoardingTwoBinding>() {
             val action = BoardingTwoFragmentDirections.actionBoardingTwoFragmentToBoardingThreeFragment()
             it.findNavController().navigate(action)
         }
+
+        binding.btnObTwoSkip.setOnClickListener {
+            val action = BoardingTwoFragmentDirections.actionBoardingTwoFragmentToSignInFragment()
+            it.findNavController().navigate(action)
+        }
         super.onViewCreated(view, savedInstanceState)
     }
 }

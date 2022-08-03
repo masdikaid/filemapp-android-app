@@ -4,16 +4,23 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryDark">@color/black</item>
-        <item name="colorAccent">@color/black</item>
-        <item name="android:background">@color/black</item>
+        <item name="colorAccent">@color/white</item>
         <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textColorHighlight">@color/grey</item>
     </style>
 
     <!--On Boarding Custom Style-->
     <style name="Movup">
         <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/grey</item>
     </style>
 
+
+
+    <!--begin onboarding style-->
     <style name="Movup.OnBoarding">
     </style>
 
@@ -39,4 +46,36 @@
         <item name="fontFamily">@font/comforta</item>
         <item name="android:background">@drawable/button_secondary</item>
     </style>
+    <!--end onboarding style-->
+
+
+    <!--begin onboarding style-->
+    <style name="Movup.SignIn">
+    </style>
+
+    <style name="Movup.SignIn.AppName">
+        <item name="android:textSize">23sp</item>
+        <item name="fontFamily">@font/fredoka</item>
+    </style>
+
+    <style name="Movup.SignIn.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/fredoka</item>
+    </style>
+
+    <style name="Movup.SignIn.UsernameLable">
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">@font/fredoka</item>
+    </style>
+
+    <style name="Movup.SignIn.EditText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:height">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:background">@drawable/edit_text</item>
+    </style>
+    <!--end onboarding style-->
+
 </resources>

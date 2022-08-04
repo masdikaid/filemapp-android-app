@@ -11,77 +11,108 @@
         <item name="android:textColorHint">@color/grey</item>
         <item name="android:textColorHighlight">@color/grey</item>
     </style>
+    <!-- Base application theme. -->
 
-    <!--On Boarding Custom Style-->
+
+    <!--begin master style-->
     <style name="Movup">
         <item name="android:textColor">@color/white</item>
         <item name="android:textColorHint">@color/grey</item>
     </style>
+    <!--end master style-->
 
+
+    <!--begin typograph style-->
+        <style name="Movup.Text">
+        </style>
+
+        <style name="Movup.Text.Heading">
+            <item name="fontFamily">@font/fredoka</item>
+        </style>
+
+        <style name="Movup.Text.Heading.Primary">
+            <item name="android:textSize">35sp</item>
+        </style>
+
+        <style name="Movup.Text.Heading.Secondary">
+            <item name="android:textSize">23sp</item>
+        </style>
+
+        <style name="Movup.Text.Heading.Title">
+            <item name="android:textSize">20sp</item>
+        </style>
+
+        <style name="Movup.Text.Heading.Label">
+            <item name="android:textSize">14sp</item>
+        </style>
+
+        <style name="Movup.Text.Description">
+            <item name="fontFamily">@font/comforta</item>
+            <item name="android:textSize">14sp</item>
+        </style>
+
+        <style name="Movup.Text.Action">
+            <item name="fontFamily">@font/comforta</item>
+            <item name="android:textSize">15sp</item>
+        </style>
+    <!--end typograph style-->
+
+
+    <!--begin component style-->
+        <style name="Movup.Component">
+            <item name="height">45dp</item>
+            <item name="fontFamily">@font/comforta</item>
+        </style>
+
+        <style name="Movup.Component.Button">
+        </style>
+
+        <style name="Movup.Component.Button.Primary">
+            <item name="android:background">@drawable/button_primary</item>
+        </style>
+
+        <style name="Movup.Component.Button.Secondary">
+            <item name="height">20dp</item>
+            <item name="android:background">@drawable/button_secondary</item>
+        </style>
+
+
+        <style name="Movup.Component.Form">
+        </style>
+
+        <style name="Movup.Component.Form.InputLable">
+            <item name="android:textSize">15sp</item>
+            <item name="fontFamily">@font/fredoka</item>
+        </style>
+
+        <style name="Movup.Component.Form.EditText">
+            <item name="android:textSize">15sp</item>
+            <item name="android:paddingTop">10dp</item>
+            <item name="android:paddingBottom">10dp</item>
+            <item name="android:height">48dp</item>
+            <item name="android:layout_height">48dp</item>
+            <item name="android:minHeight">48dp</item>
+            <item name="android:background">@drawable/edit_text</item>
+        </style>
+
+        <style name="Movup.Component.Form.Spinner">
+            <item name="android:textSize">15sp</item>
+            <item name="android:height">48dp</item>
+            <item name="android:layout_height">48dp</item>
+            <item name="android:background">@drawable/edit_text</item>
+        </style>
+    <!--end component style-->
 
 
     <!--begin onboarding style-->
     <style name="Movup.OnBoarding">
     </style>
-
-    <style name="Movup.OnBoarding.Heading">
-        <item name="fontFamily">@font/fredoka</item>
-        <item name="android:textSize">23sp</item>
-    </style>
-
-    <style name="Movup.OnBoarding.Description">
-        <item name="fontFamily">@font/comforta</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:gravity">center_horizontal</item>
-    </style>
-
-    <style name="Movup.OnBoarding.ButtonPrimary">
-        <item name="height">20dp</item>
-        <item name="fontFamily">@font/comforta</item>
-        <item name="android:background">@drawable/button_primary</item>
-    </style>
-
-    <style name="Movup.OnBoarding.ButtonSecondary">
-        <item name="height">20dp</item>
-        <item name="fontFamily">@font/comforta</item>
-        <item name="android:background">@drawable/button_secondary</item>
-    </style>
     <!--end onboarding style-->
 
 
-    <!--begin onboarding style-->
+    <!--begin signin style-->
     <style name="Movup.SignIn">
     </style>
-
-    <style name="Movup.SignIn.AppName">
-        <item name="android:textSize">23sp</item>
-        <item name="fontFamily">@font/fredoka</item>
-    </style>
-
-    <style name="Movup.SignIn.Title">
-        <item name="android:textSize">20sp</item>
-        <item name="fontFamily">@font/fredoka</item>
-    </style>
-
-    <style name="Movup.SignIn.UsernameLable">
-        <item name="android:textSize">15sp</item>
-        <item name="fontFamily">@font/fredoka</item>
-    </style>
-
-    <style name="Movup.SignIn.RegisterAction">
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="fontFamily">@font/comforta</item>
-    </style>
-
-    <style name="Movup.SignIn.EditText">
-        <item name="android:textSize">15sp</item>
-        <item name="android:paddingTop">10dp</item>
-        <item name="android:paddingBottom">10dp</item>
-        <item name="android:height">48dp</item>
-        <item name="android:minHeight">48dp</item>
-        <item name="android:background">@drawable/edit_text</item>
-    </style>
-    <!--end onboarding style-->
+    <!--end signin style-->
 
 </resources>

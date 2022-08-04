@@ -24,7 +24,7 @@
 
         <TextView
             android:id="@+id/tv_app_name"
-            style="@style/Movup.SignIn.AppName"
+            style="@style/Movup.Text.Heading.Secondary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -35,7 +35,7 @@
 
         <TextView
             android:id="@+id/tv_title"
-            style="@style/Movup.SignIn.Title"
+            style="@style/Movup.Text.Heading.Title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -48,7 +48,7 @@
 
         <TextView
             android:id="@+id/tv_username"
-            style="@style/Movup.SignIn.UsernameLable"
+            style="@style/Movup.Text.Heading.Label"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="35dp"
@@ -61,7 +61,7 @@
 
         <EditText
             android:id="@+id/et_username"
-            style="@style/Movup.SignIn.EditText"
+            style="@style/Movup.Component.Form.EditText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="35dp"
@@ -76,7 +76,7 @@
 
         <TextView
             android:id="@+id/tv_password"
-            style="@style/Movup.SignIn.UsernameLable"
+            style="@style/Movup.Text.Heading.Label"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="35dp"
@@ -90,7 +90,7 @@
 
         <EditText
             android:id="@+id/et_password"
-            style="@style/Movup.SignIn.EditText"
+            style="@style/Movup.Component.Form.EditText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="35dp"
@@ -106,7 +106,7 @@
 
         <Button
             android:id="@+id/btn_sign_in"
-            style="@style/Movup.OnBoarding.ButtonPrimary"
+            style="@style/Movup.Component.Button.Primary"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -116,13 +116,14 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
 
         <TextView
             android:id="@+id/tv_action_register"
-            style="@style/Movup.SignIn.RegisterAction"
+            style="@style/Movup.Text.Action"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
             android:layout_marginTop="15dp"
             android:text="@string/action_register"
             app:layout_constraintEnd_toEndOf="parent"

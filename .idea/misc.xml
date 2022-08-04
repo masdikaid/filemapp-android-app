@@ -13,7 +13,8 @@
         <entry key="app/src/main/res/layout/fragment_boarding_one.xml" value="0.21213836669921876" />
         <entry key="app/src/main/res/layout/fragment_boarding_three.xml" value="0.19907407407407407" />
         <entry key="app/src/main/res/layout/fragment_boarding_two.xml" value="0.19907407407407407" />
-        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.21873474121093756" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.2407730102539063" />
+        <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -24,7 +24,7 @@
 
         <TextView
             android:id="@+id/tv_heading_onboarding_two"
-            style="@style/Movup.OnBoarding.Heading"
+            style="@style/Movup.Text.Heading.Secondary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -35,7 +35,8 @@
 
         <TextView
             android:id="@+id/tv_description_onboarding_two"
-            style="@style/Movup.OnBoarding.Description"
+            style="@style/Movup.Text.Description"
+            android:textAlignment="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
@@ -48,7 +49,7 @@
 
         <Button
             android:id="@+id/btn_ob_two_next"
-            style="@style/Movup.OnBoarding.ButtonPrimary"
+            style="@style/Movup.Component.Button.Primary"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -62,7 +63,7 @@
 
         <Button
             android:id="@+id/btn_ob_two_skip"
-            style="@style/Movup.OnBoarding.ButtonSecondary"
+            style="@style/Movup.Component.Button.Secondary"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"

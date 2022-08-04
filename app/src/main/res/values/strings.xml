@@ -22,4 +22,11 @@
     <string name="password">Password</string>
     <string name="password_placeholder">password</string>
     <string name="action_register"><u>Don’t have an account ? Sign Up</u></string>
+    <string name="select_gender">select gender</string>
+
+    <string-array name="gender_option">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
 </resources>

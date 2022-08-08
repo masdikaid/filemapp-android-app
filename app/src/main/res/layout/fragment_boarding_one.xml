@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iv_onboarding_one"
             android:layout_width="160dp"
             android:layout_height="160dp"
@@ -22,9 +22,9 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ob_one" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_heading_onboarding_one"
-            style="@style/Movup.Text.Heading.Secondary"
+            android:textAppearance="?attr/textAppearanceHeadline5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -33,37 +33,36 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iv_onboarding_one" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_description_onboarding_one"
-            style="@style/Movup.Text.Description"
-            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceBody2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="40dp"
             android:text="@string/now_playing_desc"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_heading_onboarding_one" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_ob_one_next"
-            style="@style/Movup.Component.Button.Primary"
+            style="@style/FilemApp.Component.ButtonPrimary"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="130dp"
             android:text="@string/next_btn"
-            android:textColor="#ECEFF1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_ob_one_skip"
-            style="@style/Movup.Component.Button.Secondary"
+            style="@style/FilemApp.Component.ButtonSecondary"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"

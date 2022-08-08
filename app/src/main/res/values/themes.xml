@@ -1,118 +1,123 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MovupApp" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/black</item>
-        <item name="colorPrimaryDark">@color/black</item>
-        <item name="colorAccent">@color/white</item>
-        <!-- Customize your theme here. -->
-        <item name="android:colorBackground">@color/black</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textColorHint">@color/grey</item>
-        <item name="android:textColorHighlight">@color/grey</item>
+    <style name="Theme.FilemApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/secondaryTextColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <item name="colorSurface">@color/primaryColor</item>
+        <item name="colorOnSurface">@color/primaryTextColor</item>
+        <item name="android:colorBackground">@color/primaryColor</item>
+        <item name="colorAccent">@color/primaryTextColor</item>
+        <item name="colorControlActivated">@color/primaryTextColor</item>
+        <!--text-->
+        <item name="textAppearanceHeadline5">@style/FilemApp.TextAppearance.HeadlineFive</item>
+        <item name="textAppearanceHeadline6">@style/FilemApp.TextAppearance.HeadlineSix</item>
+        <item name="textAppearanceBody2">@style/FilemApp.TextAppearance.BodyTwo</item>
+        <item name="android:spinnerDropDownItemStyle">@style/FilemApp.Component.itemDropDown</item>
     </style>
     <!-- Base application theme. -->
 
+    <style name="FilemApp"/>
 
-    <!--begin master style-->
-    <style name="Movup">
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textColorHint">@color/grey</item>
+    <style name="FilemApp.TextAppearance"/>
+
+    <style name="FilemApp.TextAppearance.HeadlineFive" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/fredoka</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
-    <!--end master style-->
 
-
-    <!--begin typograph style-->
-        <style name="Movup.Text">
-        </style>
-
-        <style name="Movup.Text.Heading">
-            <item name="fontFamily">@font/fredoka</item>
-        </style>
-
-        <style name="Movup.Text.Heading.Primary">
-            <item name="android:textSize">35sp</item>
-        </style>
-
-        <style name="Movup.Text.Heading.Secondary">
-            <item name="android:textSize">23sp</item>
-        </style>
-
-        <style name="Movup.Text.Heading.Title">
-            <item name="android:textSize">20sp</item>
-        </style>
-
-        <style name="Movup.Text.Heading.Label">
-            <item name="android:textSize">14sp</item>
-        </style>
-
-        <style name="Movup.Text.Description">
-            <item name="fontFamily">@font/comforta</item>
-            <item name="android:textSize">14sp</item>
-        </style>
-
-        <style name="Movup.Text.Action">
-            <item name="fontFamily">@font/comforta</item>
-            <item name="android:textSize">15sp</item>
-        </style>
-    <!--end typograph style-->
-
-
-    <!--begin component style-->
-        <style name="Movup.Component">
-            <item name="height">45dp</item>
-            <item name="fontFamily">@font/comforta</item>
-        </style>
-
-        <style name="Movup.Component.Button">
-        </style>
-
-        <style name="Movup.Component.Button.Primary">
-            <item name="android:background">@drawable/button_primary</item>
-        </style>
-
-        <style name="Movup.Component.Button.Secondary">
-            <item name="height">20dp</item>
-            <item name="android:background">@drawable/button_secondary</item>
-        </style>
-
-
-        <style name="Movup.Component.Form">
-        </style>
-
-        <style name="Movup.Component.Form.InputLable">
-            <item name="android:textSize">15sp</item>
-            <item name="fontFamily">@font/fredoka</item>
-        </style>
-
-        <style name="Movup.Component.Form.EditText">
-            <item name="android:textSize">15sp</item>
-            <item name="android:paddingTop">10dp</item>
-            <item name="android:paddingBottom">10dp</item>
-            <item name="android:height">48dp</item>
-            <item name="android:layout_height">48dp</item>
-            <item name="android:minHeight">48dp</item>
-            <item name="android:background">@drawable/edit_text</item>
-        </style>
-
-        <style name="Movup.Component.Form.Spinner">
-            <item name="android:textSize">15sp</item>
-            <item name="android:height">48dp</item>
-            <item name="android:layout_height">48dp</item>
-            <item name="android:background">@drawable/edit_text</item>
-        </style>
-    <!--end component style-->
-
-
-    <!--begin onboarding style-->
-    <style name="Movup.OnBoarding">
+    <style name="FilemApp.TextAppearance.HeadlineSix" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/fredoka</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
-    <!--end onboarding style-->
 
-
-    <!--begin signin style-->
-    <style name="Movup.SignIn">
+    <style name="FilemApp.TextAppearance.BodyTwo" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/comforta</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
-    <!--end signin style-->
+
+    <style name="FilemApp.TextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/comforta</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FilemApp.TextAppearance.Lable" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/comforta</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+
+    <style name="FilemApp.Component">
+    </style>
+
+    <style name="FilemApp.Component.ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="android:background">@drawable/button_primary</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textAppearance">@style/FilemApp.TextAppearance.Button</item>
+    </style>
+
+    <style name="FilemApp.Component.ButtonSecondary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="android:background">@drawable/button_secondary</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textAppearance">@style/FilemApp.TextAppearance.Button</item>
+    </style>
+
+    <style name="FilemApp.Component.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textAppearance">@style/FilemApp.TextAppearance.Button</item>
+    </style>
+
+    <style name="FilemApp.Component.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">#66FFFFFF</item>
+        <item name="hintTextColor">#66FFFFFF</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxStrokeColor">@color/primaryTextColor</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="hintTextAppearance">@style/FilemApp.TextAppearance.Lable</item>
+        <item name="android:textAppearance">@style/FilemApp.TextAppearance.Lable</item>
+    </style>
+
+    <style name="FilemApp.Component.TextInputDropdown" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="android:textColorHint">#66FFFFFF</item>
+        <item name="hintTextColor">#66FFFFFF</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="hintTextAppearance">@style/FilemApp.TextAppearance.Lable</item>
+        <item name="android:textAppearance">@style/FilemApp.TextAppearance.Button</item>
+    </style>
+
+
+    <style name="FilemApp.Component.itemDropDown">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="fontFamily">@font/comforta</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
 
 </resources>
+
+
+

@@ -9,7 +9,6 @@ class Boarding : BaseActivity<ActivityBoardingBinding>() {
     override fun getLayoutResID(): Int = R.layout.activity_boarding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        supportActionBar?.hide()
         super.onCreate(savedInstanceState)
     }
 }

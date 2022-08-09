@@ -16,6 +16,7 @@
         <item name="textAppearanceHeadline6">@style/FilemApp.TextAppearance.HeadlineSix</item>
         <item name="textAppearanceBody2">@style/FilemApp.TextAppearance.BodyTwo</item>
         <item name="android:spinnerDropDownItemStyle">@style/FilemApp.Component.itemDropDown</item>
+
     </style>
     <!-- Base application theme. -->
 
@@ -114,6 +115,24 @@
         <item name="android:textStyle">bold</item>
         <item name="android:paddingLeft">20dp</item>
         <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <style name="FilemApp.Component.DatePicker" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="materialCalendarStyle">@style/FilemApp.Component.CalendarTheme</item>
+        <item name="buttonBarNegativeButtonStyle">@style/FilemApp.Component.TextButton</item>
+        <item name="buttonBarPositiveButtonStyle">@style/FilemApp.Component.TextButton</item>
+    </style>
+
+    <style name="FilemApp.Component.CalendarTheme" parent="Widget.MaterialComponents.MaterialCalendar">
+        <item name="daySelectedStyle">@style/FilemApp.Component.DatePicker.DaySelected</item>
+    </style>
+
+
+    <style name="FilemApp.Component.DatePicker.DaySelected" parent="Widget.MaterialComponents.MaterialCalendar.Day.Selected">
+        <item name="itemFillColor">@color/secondaryDarkColor</item>
+        <item name="itemTextColor">@color/primaryTextColor</item>
+        <item name="itemStrokeWidth">2dp</item>
     </style>
 
 

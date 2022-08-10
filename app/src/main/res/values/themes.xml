@@ -130,7 +130,7 @@
 
 
     <style name="FilemApp.Component.DatePicker.DaySelected" parent="Widget.MaterialComponents.MaterialCalendar.Day.Selected">
-        <item name="itemFillColor">@color/secondaryDarkColor</item>
+        <item name="itemFillColor">@color/secondaryColor</item>
         <item name="itemTextColor">@color/primaryTextColor</item>
         <item name="itemStrokeWidth">2dp</item>
     </style>

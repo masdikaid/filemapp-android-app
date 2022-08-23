@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/boarding_navigation"
     app:startDestination="@id/boardingOneFragment">
 
@@ -52,9 +53,17 @@
         <action
             android:id="@+id/action_signInFragment_to_signUpFragment"
             app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_wellcomeProfileFragment"
+            app:destination="@id/wellcomeProfileFragment" />
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
         android:name="com.mdidproject.filemapp.ui.auth.SignUpFragment"
         android:label="SignUpFragment" />
+    <fragment
+        android:id="@+id/wellcomeProfileFragment"
+        android:name="com.mdidproject.filemapp.ui.profile.WellcomeProfileFragment"
+        android:label="fragment_wellcome_profile"
+        tools:layout="@layout/fragment_wellcome_profile" />
 </navigation>

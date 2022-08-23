@@ -135,6 +135,10 @@
         <item name="itemStrokeWidth">2dp</item>
     </style>
 
+    <style name="FilemApp.RoundedImage">
+        <item name="cornerSize">50%</item>
+    </style>
+
 
 </resources>
 

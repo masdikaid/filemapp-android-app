@@ -15,6 +15,9 @@
         android:theme="@style/Theme.FilemApp"
         tools:targetApi="31">
         <activity
+            android:name=".ui.home.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.mdidproject.filemapp.ui.boarding.Boarding"
             android:exported="true">
             <intent-filter>

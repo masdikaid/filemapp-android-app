@@ -56,6 +56,9 @@
         <action
             android:id="@+id/action_signInFragment_to_wellcomeProfileFragment"
             app:destination="@id/wellcomeProfileFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_homeActivity"
+            app:destination="@id/homeActivity" />
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
@@ -65,5 +68,13 @@
         android:id="@+id/wellcomeProfileFragment"
         android:name="com.mdidproject.filemapp.ui.profile.WelcomeProfileFragment"
         android:label="fragment_wellcome_profile"
-        tools:layout="@layout/fragment_wellcome_profile" />
+        tools:layout="@layout/fragment_wellcome_profile" >
+        <action
+            android:id="@+id/action_wellcomeProfileFragment_to_homeActivity2"
+            app:destination="@id/homeActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.mdidproject.filemapp.ui.home.HomeActivity"
+        android:label="HomeActivity" />
 </navigation>

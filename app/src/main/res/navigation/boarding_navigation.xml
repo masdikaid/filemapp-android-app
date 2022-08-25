@@ -63,7 +63,7 @@
         android:label="SignUpFragment" />
     <fragment
         android:id="@+id/wellcomeProfileFragment"
-        android:name="com.mdidproject.filemapp.ui.profile.WellcomeProfileFragment"
+        android:name="com.mdidproject.filemapp.ui.profile.WelcomeProfileFragment"
         android:label="fragment_wellcome_profile"
         tools:layout="@layout/fragment_wellcome_profile" />
 </navigation>

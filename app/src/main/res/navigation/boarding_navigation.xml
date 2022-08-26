@@ -54,23 +54,24 @@
             android:id="@+id/action_signInFragment_to_signUpFragment"
             app:destination="@id/signUpFragment" />
         <action
-            android:id="@+id/action_signInFragment_to_wellcomeProfileFragment"
-            app:destination="@id/wellcomeProfileFragment" />
-        <action
             android:id="@+id/action_signInFragment_to_homeActivity"
             app:destination="@id/homeActivity" />
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
         android:name="com.mdidproject.filemapp.ui.auth.SignUpFragment"
-        android:label="SignUpFragment" />
+        android:label="SignUpFragment" >
+        <action
+            android:id="@+id/action_signUpFragment_to_wellcomeProfileFragment"
+            app:destination="@id/wellcomeProfileFragment" />
+    </fragment>
     <fragment
         android:id="@+id/wellcomeProfileFragment"
         android:name="com.mdidproject.filemapp.ui.profile.WelcomeProfileFragment"
         android:label="fragment_wellcome_profile"
         tools:layout="@layout/fragment_wellcome_profile" >
         <action
-            android:id="@+id/action_wellcomeProfileFragment_to_homeActivity2"
+            android:id="@+id/action_wellcomeProfileFragment_to_homeActivity"
             app:destination="@id/homeActivity" />
     </fragment>
     <activity

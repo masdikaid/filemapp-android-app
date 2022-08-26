@@ -6,10 +6,12 @@ import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.TextView
 import androidx.core.content.res.ResourcesCompat
+import androidx.navigation.findNavController
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.mdidproject.filemapp.R
 import com.mdidproject.filemapp.abstraction.base.BaseFragment
 import com.mdidproject.filemapp.databinding.FragmentSignUpBinding
+import com.mdidproject.filemapp.ui.boarding.BoardingTwoFragmentDirections
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -47,6 +49,11 @@ class SignUpFragment : BaseFragment<FragmentSignUpBinding>() {
                 val format = SimpleDateFormat("dd/MM/yyyy")
                 (binding.etBirthday as TextView).text = format.format(date)
             }
+        }
+
+        binding.btnSignUp.setOnClickListener {
+            val action = SignUpFragmentDirections.actionSignUpFragmentToWellcomeProfileFragment()
+            it.findNavController().navigate(action)
         }
 
 

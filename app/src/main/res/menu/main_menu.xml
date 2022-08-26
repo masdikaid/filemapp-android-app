@@ -3,22 +3,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/home_menu"
+        android:id="@+id/homeFragment"
         android:icon="@drawable/home_menu"
         android:title="Home"
         app:showAsAction="always" />
     <item
-        android:id="@+id/stream_menu"
+        android:id="@+id/streamingFragment"
         android:icon="@drawable/video_menu"
         android:title="Stream"
         app:showAsAction="always" />
     <item
-        android:id="@+id/ticket_menu"
+        android:id="@+id/ticketFragment"
         android:icon="@drawable/ticket_menu"
         android:title="Ticket"
         app:showAsAction="always" />
     <item
-        android:id="@+id/profile_menu"
+        android:id="@+id/profileFragment"
         android:icon="@drawable/user_menu"
         android:title="Profile"
         app:showAsAction="always" />

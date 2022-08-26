@@ -11,6 +11,11 @@ class SignInFragment : BaseFragment<FragmentSignInBinding>() {
     override fun getLayoutResourceId(): Int = R.layout.fragment_sign_in
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        binding.btnSignIn.setOnClickListener {
+            val action = SignInFragmentDirections.actionSignInFragmentToHomeActivity()
+            it.findNavController().navigate(action)
+        }
+
         binding.tvActionRegister.setOnClickListener {
             val action = SignInFragmentDirections.actionSignInFragmentToSignUpFragment()
             it.findNavController().navigate(action)

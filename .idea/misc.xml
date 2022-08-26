@@ -18,7 +18,7 @@
         <entry key="app/src/main/res/drawable/video_menu.xml" value="0.1845" />
         <entry key="app/src/main/res/font/heading_one.xml" value="0.2869791666666667" />
         <entry key="app/src/main/res/layout/activity_boarding.xml" value="0.2578125" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.260528564453125" />
         <entry key="app/src/main/res/layout/dropdown_item.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_boarding_four.xml" value="0.1" />
